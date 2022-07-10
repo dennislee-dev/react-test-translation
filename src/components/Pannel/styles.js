@@ -9,6 +9,7 @@ export const StyledWrapper = styled.div`
 export const StyledTextarea = styled.textarea`
   width: 100%;
   height: 100%;
+  resize: none;
   border: 0;
   outline: 0;
   font-size: 20px;

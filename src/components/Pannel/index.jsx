@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { StyledTextarea, StyledWrapper } from "./styles";
 
-function Source({ value, onClickHandler }) {
+function Pannel({ value, onClickHandler }) {
   const [text, setText] = useState();
 
   useEffect(() => {
@@ -23,4 +23,4 @@ function Source({ value, onClickHandler }) {
   );
 }
 
-export default Source;
+export default Pannel;
